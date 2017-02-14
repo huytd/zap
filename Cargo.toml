@@ -1,0 +1,15 @@
+[package]
+name = "zap"
+version = "0.1.0"
+authors = ["Huy Tran <kingbazoka@gmail.com>"]
+
+[dependencies]
+futures = "0.1.1"
+tokio-core = "0.1.0"
+tokio-proto = "0.1"
+tokio-service = "0.1"
+num_cpus = "1.0"
+serde_json = "0.8"
+
+[dependencies.tokio-minihttp]
+path = "./tokio-minihttp"
